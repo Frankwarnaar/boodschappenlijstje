@@ -1,11 +1,3 @@
-/*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true*/
-
-// Eindopdracht Programmen
-// Frank Warnaar
-// Kobalt
-// 500702815
-// Docent: David de Vries
-
 var items = []; //array met hier alle items
 var greenItems = []; //array met alle items die gemarkeerd zijn
 var list = document.getElementById("list"); //haal ul op en sla deze op in var list. Hier moet de li items in komen

@@ -1,0 +1,177 @@
+/*Eindopdracht Programmen*/
+/*Frank Warnaar*/
+/*Kobalt*/
+/*500702815*/
+/*Docent: David de Vries*/
+
+body {
+	background-color: #202020;
+	font-family: helvetica;
+	font-size: 10pt;
+	font-weight: 100;
+	margin-top: 10em;
+	margin-bottom: 10em;
+	text-align: center;
+}
+
+main {
+	width: 16em;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #08ff8e;
+}
+
+h1 {
+	font-size: 12pt;
+	font-weight: 200;
+	margin-right: 0;
+}
+
+input {
+	height: 20px;
+	width: 154px;
+	border-radius: 3px;
+	border-width: 1px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+ul {
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+li {
+	width: 13em;
+	list-style-type: none;
+	padding-top: 2px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	background-color: #f2f2f2;
+	border-width: 1px;
+	transition: background 0.2s linear; /*Bron:http://stackoverflow.com/questions/6994665/background-color-hover-fade-effect-css*/
+	cursor: pointer; /*Bron: http://stackoverflow.com/questions/3087975/how-can-i-make-the-cursor-a-hand-when-a-user-hovers-over-a-list-item*/
+	height: 25px;
+	clear: both;
+}
+
+li:hover {
+	background-color: #d4f4e5;
+}
+
+p {
+	margin: 4px;
+	margin-left: 10px;
+	padding-bottom: 4px;
+	float: left;
+	/*Maak tekst niet selecteerbaar | Bron: http://stackoverflow.com/questions/69430/is-there-a-way-to-make-text-unselectable-on-an-html-page*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.clicked {
+	background-color: #08ff8e;
+}
+
+.clicked:hover {
+	background-color: #82f8c2;
+}
+
+p.clicked {
+	text-decoration: line-through;
+}
+
+img {
+	float:right;
+	margin-right: 10px;
+	margin-top: 2px;
+	/*Maak image niet selecteerbaar | Bron: http://stackoverflow.com/questions/69430/is-there-a-way-to-make-text-unselectable-on-an-html-page*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+form {
+	background-color: #ffffff;
+}
+
+button {
+	margin-bottom: 5px;
+	border-radius: 3px;
+	background-color: #089fff;
+	border: 1px solid #089fff;
+	cursor: pointer;
+	height: 25px;
+	color: #ffffff;
+	/*Maak tekst niet selecteerbaar | Bron: http://stackoverflow.com/questions/69430/is-there-a-way-to-make-text-unselectable-on-an-html-page*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #089fff;
+
+}
+
+button:disabled {
+	cursor: default;
+	color: #c2c2c2;
+}
+
+button:disabled:hover {
+	background-color: #089fff;
+}
+
+/* Voorkom blauwe rand om button als je erop geklikt hebt | Bron: http://stackoverflow.com/questions/20340138/remove-blue-border-from-css-custom-styled-button-in-chrome; */
+button:focus {
+	outline:0;
+} 
+
+input:focus {
+	outline-color: #089fff;
+}
+
+#buttons {
+	margin-top: 10px;
+}
+
+#add {
+	width: 120px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 0;    
+}
+
+#remove, #makeGreen {
+	width: 13.2em;
+	border-radius: 3px;
+	margin-bottom:10px;
+}
+
+.removeHover:hover, .removeHover {
+	background-color: #ffbebe;
+}
+
+.markAllHover {
+	background-color: #d4f4e5;
+}
+
+.markNoneHover {
+	background-color: #82f8c2;
+}

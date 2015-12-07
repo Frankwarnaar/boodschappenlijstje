@@ -53,6 +53,7 @@ function createItem(item){
 	markAll.innerHTML = "Alles markeren";
 
 	removeAllItems.disabled = false;
+	
 	markAll.disabled = false;
 
 	listElement.addEventListener("click", function (){
@@ -144,7 +145,6 @@ markAll.addEventListener("click", function (){
 	}
 });
 
-
 removeAllItems.addEventListener("mouseover", function(){
 	addClass("removeHover", list);
 });
@@ -169,4 +169,3 @@ markAll.addEventListener("mouseout", function(){
 	removeClass("markAllHover", list);
 	removeClass("markNoneHover", list);
 });
-

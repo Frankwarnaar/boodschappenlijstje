@@ -75,6 +75,10 @@ p {
 	background-color: #08ff8e;
 }
 
+.clicked p{
+	text-decoration: line-through;
+}
+
 .clicked:hover {
 	background-color: #82f8c2;
 }
